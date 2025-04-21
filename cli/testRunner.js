@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-import connectDB from "../../config/db.js";
-import Transaction from "../models/Transaction.js";
-import Bill from "../models/Bill.js";
+import connectDB from '../config/db.js';
+import Transaction from '../models/Transaction.js';
+import Bill from '../models/Bill.js';
+
 import fs from "fs";
 import path from "path";
 
